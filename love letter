@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surat Cinta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Surat Cinta untuk Kamu</h1>
+    <p>Hai, aku ingin menyampaikan sesuatu yang sudah lama aku pendam. Aku mencintaimu, dan aku harap kamu bisa menerima perasaanku.</p>
+    <div class="buttons">
+      <button onclick="acceptLove()">accept</button>
+      <button onclick="rejectLove()">reject</button>
+    </div>
+    <p id="response"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
